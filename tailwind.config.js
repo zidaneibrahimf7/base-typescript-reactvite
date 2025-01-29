@@ -40,6 +40,21 @@ export default {
   				DEFAULT: 'hsl(var(--destructive))',
   				foreground: 'hsl(var(--destructive-foreground))'
   			},
+  			success: {
+  				DEFAULT: 'hsl(var(--success))',
+  			},
+			warning: {
+				DEFAULT: 'hsl(var(--warning))',
+			},
+			danger: {
+				DEFAULT: 'hsl(var(--danger))',
+			},
+			info: {
+				DEFAULT: 'hsl(var(--info))',
+			},
+			tertiary: {
+				DEFAULT: 'hsl(var(--tertiary))',
+			},
   			border: 'hsl(var(--border))',
   			input: 'hsl(var(--input))',
   			ring: 'hsl(var(--ring))',

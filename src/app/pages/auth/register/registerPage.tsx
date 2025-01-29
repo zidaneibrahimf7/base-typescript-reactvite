@@ -7,7 +7,7 @@ import { useNavigate } from "react-router"
 import { toast } from "sonner"
 import TitleText from "../TitleText"
 import Label from "@/components/custom/Form/label"
-import { Input } from "@/components/custom/Form/Input"
+import { Input } from "@/components/custom/Form/input"
 
 
 export default function RegisterPage(){

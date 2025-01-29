@@ -4,12 +4,15 @@ import './index.css'
 import App from './App.tsx'
 import { ThemeProvider } from './config/ReactThemeProvider.tsx'
 import { Toaster } from 'sonner'
+import ReactQueryClientProvider from './config/ReactQueryClientProvider.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <ThemeProvider>
-      <App />
-      <Toaster richColors />
-    </ThemeProvider>
+    <ReactQueryClientProvider>
+      <ThemeProvider>
+        <App />
+        <Toaster richColors />
+      </ThemeProvider>
+    </ReactQueryClientProvider>
   </StrictMode>
 )

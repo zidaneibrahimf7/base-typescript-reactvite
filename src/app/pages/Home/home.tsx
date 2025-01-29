@@ -1,4 +1,4 @@
-import { ModeToggle } from "@/components/custom/mode-toggle";
+import { ModeToggle } from "@/components/custom/SetTheme/mode-toggle";
 import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router";
 
